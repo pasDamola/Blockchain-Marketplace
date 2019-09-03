@@ -22,12 +22,12 @@
       "type": "constructor"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.8+commit.23d335f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"name\",\"outputs\":[{\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/C/Users/onuem/Desktop/code_practice/Blockchain-Marketplace/src/contracts/Marketplace.sol\":\"Marketplace\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Users/onuem/Desktop/code_practice/Blockchain-Marketplace/src/contracts/Marketplace.sol\":{\"keccak256\":\"0x086ec394aea87c78419da5afbf836f48766ec3504c378c155d83933d24e5160b\",\"urls\":[\"bzzr://cc3f8dd1955492803eab60545fa5a96a480712c60c38a94f9af00fd65a5a5cb6\"]}},\"version\":1}",
-  "bytecode": "0x608060405234801561001057600080fd5b506040518060400160405280601b81526020017f4461707020556e6976657273697479204d61726b6574706c61636500000000008152506000908051906020019061005c929190610062565b50610107565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f106100a357805160ff19168380011785556100d1565b828001600101855582156100d1579182015b828111156100d05782518255916020019190600101906100b5565b5b5090506100de91906100e2565b5090565b61010491905b808211156101005760008160009055506001016100e8565b5090565b90565b61017d806101166000396000f3fe608060405234801561001057600080fd5b506004361061002b5760003560e01c806306fdde0314610030575b600080fd5b6100386100b3565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561007857808201518184015260208101905061005d565b50505050905090810190601f1680156100a55780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60008054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156101495780601f1061011e57610100808354040283529160200191610149565b820191906000526020600020905b81548152906001019060200180831161012c57829003601f168201915b50505050508156fea165627a7a72305820a283dbc2a240b67f8efc1f70572df2c568fcd383db6b82da3122daf89c7af6d80029",
-  "deployedBytecode": "0x608060405234801561001057600080fd5b506004361061002b5760003560e01c806306fdde0314610030575b600080fd5b6100386100b3565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561007857808201518184015260208101905061005d565b50505050905090810190601f1680156100a55780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60008054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156101495780601f1061011e57610100808354040283529160200191610149565b820191906000526020600020905b81548152906001019060200180831161012c57829003601f168201915b50505050508156fea165627a7a72305820a283dbc2a240b67f8efc1f70572df2c568fcd383db6b82da3122daf89c7af6d80029",
-  "sourceMap": "36:135:0:-;;;92:76;8:9:-1;5:2;;;30:1;27;20:12;5:2;92:76:0;124:36;;;;;;;;;;;;;;;;;:4;:36;;;;;;;;;;;;:::i;:::-;;36:135;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;",
-  "deployedSourceMap": "36:135:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;36:135:0;;;;;;;;;;;;;;;;;;;65:18;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;65:18:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
-  "source": "pragma solidity >=0.4.21 <0.6.0;\r\n\r\ncontract Marketplace {\r\n     string public name;\r\n\r\n    constructor() public {\r\n        name = \"Dapp University Marketplace\";\r\n    }\r\n}\r\n\r\n",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.8+commit.23d335f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"name\",\"outputs\":[{\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/C/Users/onuem/Desktop/code_practice/Blockchain-Marketplace/src/contracts/Marketplace.sol\":\"Marketplace\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Users/onuem/Desktop/code_practice/Blockchain-Marketplace/src/contracts/Marketplace.sol\":{\"keccak256\":\"0x3f8066d68808981df2257c93b7788772013672c426c0fa2f146fb2134c086a89\",\"urls\":[\"bzzr://ea61295c40cfb7ad52e182ab8a7ed914a84bdee5130d58712ea11deb3897892d\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b506040518060400160405280601481526020017f4f79696e636f6465204d61726b6574706c6163650000000000000000000000008152506000908051906020019061005c929190610062565b50610107565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f106100a357805160ff19168380011785556100d1565b828001600101855582156100d1579182015b828111156100d05782518255916020019190600101906100b5565b5b5090506100de91906100e2565b5090565b61010491905b808211156101005760008160009055506001016100e8565b5090565b90565b61017d806101166000396000f3fe608060405234801561001057600080fd5b506004361061002b5760003560e01c806306fdde0314610030575b600080fd5b6100386100b3565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561007857808201518184015260208101905061005d565b50505050905090810190601f1680156100a55780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60008054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156101495780601f1061011e57610100808354040283529160200191610149565b820191906000526020600020905b81548152906001019060200180831161012c57829003601f168201915b50505050508156fea165627a7a723058205b99e82d670158bbd5395cef8f93dff685f6fe423bfab0f979e4d9b1a770ebca0029",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b506004361061002b5760003560e01c806306fdde0314610030575b600080fd5b6100386100b3565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561007857808201518184015260208101905061005d565b50505050905090810190601f1680156100a55780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60008054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156101495780601f1061011e57610100808354040283529160200191610149565b820191906000526020600020905b81548152906001019060200180831161012c57829003601f168201915b50505050508156fea165627a7a723058205b99e82d670158bbd5395cef8f93dff685f6fe423bfab0f979e4d9b1a770ebca0029",
+  "sourceMap": "36:128:0:-;;;92:69;8:9:-1;5:2;;;30:1;27;20:12;5:2;92:69:0;124:29;;;;;;;;;;;;;;;;;:4;:29;;;;;;;;;;;;:::i;:::-;;36:128;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;",
+  "deployedSourceMap": "36:128:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;36:128:0;;;;;;;;;;;;;;;;;;;65:18;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;65:18:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
+  "source": "pragma solidity >=0.4.21 <0.6.0;\r\n\r\ncontract Marketplace {\r\n     string public name;\r\n\r\n    constructor() public {\r\n        name = \"Oyincode Marketplace\";\r\n    }\r\n}\r\n\r\n",
   "sourcePath": "C:/Users/onuem/Desktop/code_practice/Blockchain-Marketplace/src/contracts/Marketplace.sol",
   "ast": {
     "absolutePath": "/C/Users/onuem/Desktop/code_practice/Blockchain-Marketplace/src/contracts/Marketplace.sol",
@@ -96,7 +96,7 @@
             "body": {
               "id": 10,
               "nodeType": "Block",
-              "src": "113:55:0",
+              "src": "113:48:0",
               "statements": [
                 {
                   "expression": {
@@ -123,7 +123,7 @@
                     "operator": "=",
                     "rightHandSide": {
                       "argumentTypes": null,
-                      "hexValue": "4461707020556e6976657273697479204d61726b6574706c616365",
+                      "hexValue": "4f79696e636f6465204d61726b6574706c616365",
                       "id": 7,
                       "isConstant": false,
                       "isLValue": false,
@@ -131,15 +131,15 @@
                       "kind": "string",
                       "lValueRequested": false,
                       "nodeType": "Literal",
-                      "src": "131:29:0",
+                      "src": "131:22:0",
                       "subdenomination": null,
                       "typeDescriptions": {
-                        "typeIdentifier": "t_stringliteral_da4b6052d4e2657e92b9e8ac7ae34efe0016cdd765c6837ed00d7314b2dd8f36",
-                        "typeString": "literal_string \"Dapp University Marketplace\""
+                        "typeIdentifier": "t_stringliteral_5cc4979575064a7634b1076976ea510591299cf2946e7eaa2df1369a83a18866",
+                        "typeString": "literal_string \"Oyincode Marketplace\""
                       },
-                      "value": "Dapp University Marketplace"
+                      "value": "Oyincode Marketplace"
                     },
-                    "src": "124:36:0",
+                    "src": "124:29:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage",
                       "typeString": "string storage ref"
@@ -147,7 +147,7 @@
                   },
                   "id": 9,
                   "nodeType": "ExpressionStatement",
-                  "src": "124:36:0"
+                  "src": "124:29:0"
                 }
               ]
             },
@@ -171,17 +171,17 @@
               "src": "113:0:0"
             },
             "scope": 12,
-            "src": "92:76:0",
+            "src": "92:69:0",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
         "scope": 13,
-        "src": "36:135:0"
+        "src": "36:128:0"
       }
     ],
-    "src": "0:175:0"
+    "src": "0:168:0"
   },
   "legacyAST": {
     "absolutePath": "/C/Users/onuem/Desktop/code_practice/Blockchain-Marketplace/src/contracts/Marketplace.sol",
@@ -250,7 +250,7 @@
             "body": {
               "id": 10,
               "nodeType": "Block",
-              "src": "113:55:0",
+              "src": "113:48:0",
               "statements": [
                 {
                   "expression": {
@@ -277,7 +277,7 @@
                     "operator": "=",
                     "rightHandSide": {
                       "argumentTypes": null,
-                      "hexValue": "4461707020556e6976657273697479204d61726b6574706c616365",
+                      "hexValue": "4f79696e636f6465204d61726b6574706c616365",
                       "id": 7,
                       "isConstant": false,
                       "isLValue": false,
@@ -285,15 +285,15 @@
                       "kind": "string",
                       "lValueRequested": false,
                       "nodeType": "Literal",
-                      "src": "131:29:0",
+                      "src": "131:22:0",
                       "subdenomination": null,
                       "typeDescriptions": {
-                        "typeIdentifier": "t_stringliteral_da4b6052d4e2657e92b9e8ac7ae34efe0016cdd765c6837ed00d7314b2dd8f36",
-                        "typeString": "literal_string \"Dapp University Marketplace\""
+                        "typeIdentifier": "t_stringliteral_5cc4979575064a7634b1076976ea510591299cf2946e7eaa2df1369a83a18866",
+                        "typeString": "literal_string \"Oyincode Marketplace\""
                       },
-                      "value": "Dapp University Marketplace"
+                      "value": "Oyincode Marketplace"
                     },
-                    "src": "124:36:0",
+                    "src": "124:29:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage",
                       "typeString": "string storage ref"
@@ -301,7 +301,7 @@
                   },
                   "id": 9,
                   "nodeType": "ExpressionStatement",
-                  "src": "124:36:0"
+                  "src": "124:29:0"
                 }
               ]
             },
@@ -325,25 +325,32 @@
               "src": "113:0:0"
             },
             "scope": 12,
-            "src": "92:76:0",
+            "src": "92:69:0",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
         "scope": 13,
-        "src": "36:135:0"
+        "src": "36:128:0"
       }
     ],
-    "src": "0:175:0"
+    "src": "0:168:0"
   },
   "compiler": {
     "name": "solc",
     "version": "0.5.8+commit.23d335f2.Emscripten.clang"
   },
-  "networks": {},
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x9416FA93Faa65CaE439937486b948E204a27AA83",
+      "transactionHash": "0x3e22d3f790e6475f324a8eafa86a65f4751df632a796c689cb3a8a0771be1f7c"
+    }
+  },
   "schemaVersion": "3.0.11",
-  "updatedAt": "2019-09-03T15:00:01.078Z",
+  "updatedAt": "2019-09-03T16:25:24.783Z",
   "devdoc": {
     "methods": {}
   },
