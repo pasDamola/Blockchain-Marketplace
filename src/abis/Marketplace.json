@@ -5680,12 +5680,18 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0xfC188b8F8FbcCB875733404Cc7F5625df22296B6",
-      "transactionHash": "0x627fe7954ff449e8dffa714e2e60615d49b66ce6e73aa1808215796f12802d31"
+      "address": "0x9416FA93Faa65CaE439937486b948E204a27AA83",
+      "transactionHash": "0x7e18fdaf11b29d40752675ed2f0822ce8652edd6612e9844ec48beec49075159"
+    },
+    "42": {
+      "events": {},
+      "links": {},
+      "address": "0x6f8f6dca3a7e711e51b669ff31f6266a4b0dd585",
+      "transactionHash": "0x44ba4bee49d29dff224362a7a5a9e67b0b1b2661b24e3471fb7d167ae90a1563"
     }
   },
   "schemaVersion": "3.0.11",
-  "updatedAt": "2019-09-03T20:58:21.279Z",
+  "updatedAt": "2019-09-04T10:03:48.520Z",
   "devdoc": {
     "methods": {}
   },
